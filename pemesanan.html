@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan - Cuci Sepatu TEDI</title>
+    <link rel="stylesheet" href="styles-2.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Cuci Sepatu TEDI</div>
+        <ul>
+            <li><a href="beranda.html">Beranda</a></li>
+            <li><a href="layanan.html">Layanan</a></li>
+        </ul>
+        <button class="order-button">Pemesanan</button>
+    </nav>
+    <div class="form-container">
+        <h1>Form Pemesanan</h1>
+        <form>
+            <div class="form-group">
+                <label for="nama">Nama Pemesan</label>
+                <input type="text" id="nama" name="nama">
+            </div>
+            <div class="form-group">
+                <label for="whatsapp">Nomer Whatsapp</label>
+                <input type="text" id="whatsapp" name="whatsapp">
+            </div>
+            <div class="form-group">
+                <label for="jenis">Jenis Sepatu</label>
+                <input type="text" id="jenis" name="jenis">
+            </div>
+            <div class="form-group">
+                <span>Servis</span>
+                <label><input type="radio" name="servis" value="regular" checked> Regular</label>
+                <label><input type="radio" name="servis" value="oneday"> One Day</label>
+            </div>
+            <div class="form-group">
+                <label for="alamat">Alamat</label>
+                <input type="text" id="alamat" name="alamat">
+            </div>
+            <div class="form-group">
+                <span>Metode Pembayaran</span>
+                <label><input type="radio" name="pembayaran" value="cash" checked> Cash</label>
+                <label><input type="radio" name="pembayaran" value="bank"> Bank Mandiri</label>
+            </div>
+            <button type="submit" class="submit-button">Pesan</button>
+        </form>
+    </div>
+</body>
+</html>
